@@ -1,0 +1,133 @@
+body
+
+{
+
+background-color:#FDF7EF;
+margin: 0;
+
+}
+
+
+.menu
+
+{
+
+    background-color: #FFFBF6; 
+    height: 90px;
+    top: 0px;
+    padding-left: 0px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+
+}
+
+
+.menu a
+{
+
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+    font-size: medium;
+}
+    
+
+
+p
+
+{
+
+color: white;
+
+}
+
+.menu a:hover
+{
+
+color: red;
+text-decoration: underline;
+
+}
+
+body img 
+
+{
+ 
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    
+
+
+
+
+   
+
+}
+
+
+
+
+.conteneur
+
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+
+}
+
+.menureserver
+
+{
+
+    background-color: rgba(246, 209, 158, 0.4);
+    height: 90px;
+    width: 80px;
+
+   
+
+}
+
+.lemenu
+
+{
+margin-top: 70px;
+
+}
+
+.lienréserver
+
+{
+    margin-top: 70px;
+  
+    
+
+}
+
+.lienréserver a
+{
+color: red;
+
+
+}
+
+.pageaccueil
+{
+    height: 150px;
+    width: 100%;
+   
+
+}
+
+#lelabologo
+{
+height: 100px;
+width: 100px;
+margin-bottom: 200px;
+}
+
