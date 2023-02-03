@@ -2,11 +2,10 @@ body
 
 {
 
-background-color:#FDF7EF;
 margin: 0;
+background-image: repeating-linear-gradient(0deg, rgb(41, 41, 41) 0px, rgb(41, 41, 41) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgb(41, 41, 41) 0px, rgb(41, 41, 41) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, hsl(87,0%,9%),hsl(87,0%,9%));
 
 }
-
 
 .menu
 
@@ -85,7 +84,7 @@ body img
 
 {
 
-    background-color: rgba(246, 209, 158, 0.4);
+    background-color: rgba(225, 156, 196, 0.4);
     height: 90px;
     width: 80px;
 
