@@ -1,9 +1,8 @@
 body
 
 {
-
-margin: 0;
-background-image: repeating-linear-gradient(0deg, rgb(41, 41, 41) 0px, rgb(41, 41, 41) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgb(41, 41, 41) 0px, rgb(41, 41, 41) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, hsl(87,0%,9%),hsl(87,0%,9%));
+margin-left: 0;
+background-image: linear-gradient(90deg, rgb(33,33,33) 0%,transparent 59%),repeating-linear-gradient(45deg, rgba(168, 168, 168,0.1) 0px, rgba(168, 168, 168,0.1) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(135deg, rgba(168, 168, 168,0.1) 0px, rgba(168, 168, 168,0.1) 1px,transparent 1px, transparent 13px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
 
 }
 
@@ -129,4 +128,131 @@ height: 100px;
 width: 100px;
 margin-bottom: 200px;
 }
+
+
+
+
+.menu
+
+{
+
+    background-color: #FFFBF6; 
+    height: 90px;
+    top: 0px;
+    padding-left: 0px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+
+}
+
+
+.menu a
+{
+
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+    font-size: medium;
+}
+    
+
+
+p
+
+{
+
+color: white;
+
+}
+
+.menu a:hover
+{
+
+color: red;
+text-decoration: underline;
+
+}
+
+body img 
+
+{
+ 
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    
+
+
+
+
+   
+
+}
+
+
+
+
+.conteneur
+
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+
+}
+
+.menureserver
+
+{
+
+    background-color: rgba(225, 156, 196, 0.4);
+    height: 90px;
+    width: 100px;
+
+   
+
+}
+
+.lemenu
+
+{
+margin-top: 70px;
+
+}
+
+.lienréserver
+
+{
+    margin-top: 70px;
+  
+    
+
+}
+
+.lienréserver a
+{
+color: red;
+
+
+}
+
+.pageaccueil
+{
+    height: 150px;
+    width: 100%;
+   
+
+}
+
+#lelabologo
+{
+height: 100px;
+width: 100px;
+margin-bottom: 200px;
+}
+
 
