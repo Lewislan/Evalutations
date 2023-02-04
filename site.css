@@ -8,7 +8,7 @@ background-color: #373536;
 .menu
 
 {
-    z-index: 10;
+    z-index: 1;
     background-color: #FFFBF6; 
     height: 90px;
     top: 0px;
@@ -558,8 +558,8 @@ justify-content: space-evenly;
     height: 50px;
     width: 250px;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+   
+ 
  
 }
 
@@ -570,8 +570,9 @@ justify-content: space-evenly;
     height: 50px;
     width: 250px;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+   
+    
+ 
 
 }
 
@@ -582,8 +583,8 @@ justify-content: space-evenly;
     height: 50px;
     width: 250px;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+   
+
    
 }
 
@@ -595,8 +596,8 @@ justify-content: space-evenly;
     height: 50px;
     width: 250px;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    
+    
 }
 
 
@@ -606,6 +607,7 @@ justify-content: space-evenly;
 {
 
     margin-left: -10px;
+    animation: effet2 1s alternate infinite;
 
 
 }
@@ -616,6 +618,7 @@ justify-content: space-evenly;
 {
 
     margin-left: -10px;
+    animation: effet 1s alternate infinite;
 
 }
 
@@ -624,6 +627,7 @@ justify-content: space-evenly;
 {
 
     margin-left: -10px;
+    animation: effet2 1s alternate infinite;
 }
 
 
@@ -632,5 +636,31 @@ justify-content: space-evenly;
 {
 
     margin-left: -10px;
+    animation: effet 1s alternate infinite;
+
+}
+
+@keyframes effet {
+
+    from{margin margin-left :0px;}
+    to {margin-left: 10px;}
+}
+
+@keyframes effet2 {
+
+    from{margin margin-right: ; :0px;}
+    to {margin-right: 10px;}
+}
+
+.conteneur4
+{
+
+    display: flex;
+    width: 99%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 150px;
+
 
 }
