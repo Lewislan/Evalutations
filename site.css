@@ -8,7 +8,7 @@ background-color: #373536;
 .menu
 
 {
-
+    z-index: 10;
     background-color: #FFFBF6; 
     height: 90px;
     top: 0px;
@@ -313,8 +313,19 @@ text-align: justify;
 
 
 {
-   
+    animation: mouvement 2s  reverse ;
     margin-left: 200px;
-    width: 300px;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+@keyframes mouvement {
+    from {
+        transform: translateX(0) rotate(0);
+    }
+   to {
+    transform: translateX(300px) rotate(40deg);
+
+   }
+    
 }
