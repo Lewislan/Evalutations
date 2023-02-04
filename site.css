@@ -367,10 +367,11 @@ text-align: justify;
 
 {
 
-height: 400px;
+height: 380px;
 width: 250px;
 background-color: white;
-border-radius: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
 
 
 }
@@ -381,10 +382,11 @@ border-radius: 10px;
 
 {
 
-    height: 400px;
+    height: 380px;
     width: 250px;
     background-color: white;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+border-top-left-radius: 10px;
     }
 
 
@@ -393,10 +395,11 @@ border-radius: 10px;
 
 {
 
-    height: 400px;
+    height: 380px;
     width: 250px;
     background-color: white;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+border-top-left-radius: 10px;
     }
 
 
@@ -404,10 +407,11 @@ border-radius: 10px;
 
 {
 
-    height: 400px;
+    height: 380px;
     width: 250px;
     background-color: white;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+border-top-left-radius: 10px;
 
     }
 
@@ -531,5 +535,102 @@ border-radius: 10px;
 .bi
 {
     margin-left: 90px;
+
+}
+
+.conteneur3
+
+
+{
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly; 
+
+
+
+}
+
+.élémentboostrap1
+
+{
+
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ 
+}
+
+.élémentboostrap2
+
+{
+
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.élémentboostrap3
+
+{
+
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+
+
+.élémentboostrap4
+
+{
+
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.bi-file-music
+
+{
+
+    margin-left: -10px;
+
+
+}
+
+
+.bi-filetype-mp3
+
+{
+
+    margin-left: -10px;
+
+}
+
+.bi-speaker
+
+{
+
+    margin-left: -10px;
+}
+
+
+.bi-emoji-smile
+
+{
+
+    margin-left: -10px;
 
 }
