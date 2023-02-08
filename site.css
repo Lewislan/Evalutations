@@ -3,6 +3,7 @@ body
 {
 margin-left: 0;
 background-color: #373536;
+b
 }
 
 .menu
@@ -16,6 +17,7 @@ background-color: #373536;
     position: fixed;
     width: 100%;
     opacity: 0.7;
+
 
 }
 
@@ -259,14 +261,14 @@ main
 
 {
 
-    margin-top: 90px;
+    margin-bottom: 90px;
 
 }
 
 .conteneur1
 {
 
-margin-top: 200px;
+margin-top: 180px;
 display: flex;
 flex-direction: row;
 margin-left: 60px;
@@ -315,7 +317,7 @@ text-align: justify;
 {
     animation: mouvement 2s  reverse ;
     margin-left: 200px;
-    margin-top: 20px;
+   
     margin-right: 10px;
 }
 
@@ -359,7 +361,8 @@ text-align: justify;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;  
-    margin-top: 100px;
+  
+
 
 }
 
@@ -663,4 +666,12 @@ justify-content: space-evenly;
     margin-bottom: 150px;
 
 
+}
+
+#logolelabo
+
+{
+height: 200px;
+width: 250px;
+padding-left: 30px;
 }
