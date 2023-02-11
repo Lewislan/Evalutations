@@ -761,11 +761,109 @@ width: 100px;
 .conteneur5
 
 {
-    height: 800px;
-    background-color: purple;
+    height: 660px;
+    background-color: #E9D5F5     ;
     width: 100%;
     position: relative;
     bottom: 50px;
 
 }
 
+#telephoneimage
+
+{
+
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    bottom: 0%;
+    right: 80%;
+    animation: telephone1 20s linear infinite;
+
+}
+
+
+#telephoneimage2
+
+{
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    top: -14%;
+    right: -15%;
+    animation: telephone2 20s linear infinite;    
+
+}
+
+
+
+@keyframes telephone1
+
+{
+    0%
+        {right: 80%;}
+    25%
+        {right: 70%;}
+    50%
+        {right: 80%;}  
+    70%  
+        {right : 70%}  
+    100%
+        {right : 80%}
+   
+}
+
+@keyframes telephone2
+
+{
+    0%
+        {right: -15%;}
+    25%
+        {right: -10%;}
+    50%
+        {right: -15%;}  
+    70%  
+        {right: -10%}  
+    100%
+        {right;: -15%}
+   
+}
+
+
+#bulle1
+{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left : 20%;
+    top : -4%;
+}
+
+#bulle2
+{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left : 45%;
+    bottom: 40%;
+}
+
+
+
+#bulle3
+{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left : 30%;
+    bottom: 10%;
+}
+
+#bulle4
+{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left : 60%;
+    bottom: 0%;
+}
