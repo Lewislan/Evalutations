@@ -867,3 +867,249 @@ width: 100px;
     left : 60%;
     bottom: 0%;
 }
+
+.conteneur6
+
+{
+
+    position: relative;
+    height: 2000px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    bottom: 50px;
+  
+    
+    
+    
+
+
+}
+
+.conteneur6>h1
+
+{
+
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+
+
+
+
+
+
+.boiteimagemix>a
+
+{
+color: white;
+margin-left: 5px;
+font-size: 15px;
+text-decoration: none;
+}
+
+.boiteimagemix>p
+
+{
+color: white;
+margin-left: 5px;
+font-size: 15px;
+
+}
+
+.boiteimagemix>a:hover
+
+{
+
+    color: red;
+    
+
+}
+
+.stylerapimage
+
+{
+    padding-right: 10px;
+    
+
+}
+
+.rapimg img
+
+
+{
+    height: 400px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+
+
+}
+
+.rapimgboite
+
+{
+    position: relative;
+    bottom: 60px;
+    height: 80px;
+    margin-left: 20px;
+    background-color:grey;
+    color: white ;
+    width: 300px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    text-align: center;
+}
+
+.rapimgboite a
+
+{
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.rapimgboite a:hover 
+{
+        color: red;
+
+}
+
+.rapimgboite p
+
+{
+    font-size: 10px;
+    margin-top: 3px;
+
+}
+
+.conteneur7
+
+{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 580px;
+    left: 500px;
+}
+
+.popimg img
+
+{
+
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;   
+
+
+}
+
+.popimgboite
+
+{
+
+    width: 300px;
+    height: 70px;
+    color: white;
+    background-color: #FE4F4F;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;   
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+
+}
+
+.popimgboite a
+
+{
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.popimgboite a:hover 
+{
+        color: red;
+
+}
+
+.popimgboite p
+
+{
+    font-size: 10px;
+    margin-top: 3px;
+
+}
+
+.afroimg img
+
+{
+
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;   
+
+
+}
+
+.afroimgboite
+
+{
+
+    width: 300px;
+    height: 70px;
+    color: white;
+    background-color: #E7D16E;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;   
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+
+}
+
+.afroimgboite a
+
+{
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.afroimgboite a:hover 
+{
+        color: red;
+
+}
+
+.afroimgboite p
+
+{
+    font-size: 10px;
+    margin-top: 3px;
+
+}
+
+
