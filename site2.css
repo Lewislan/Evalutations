@@ -1,0 +1,107 @@
+html
+
+{
+
+    min-height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow-x: hidden;
+    width: 100%;
+
+
+}
+
+
+body 
+
+{
+    
+   
+    background-color: #373536;
+    padding: 0px;
+    margin: 0px;
+    position: relative; 
+    overflow-x: hidden;
+    width: 100%;   
+ 
+}
+
+#logolelabo2
+
+{
+
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 5px;
+   
+}
+
+
+.menu
+
+{
+    z-index: 30;
+    background-color: #373536;; 
+    top: 0px;
+    padding-left: 0px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+    border-bottom: white solid 1px;
+    
+
+
+}
+
+
+.menu a
+{
+
+
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+    font-size: medium;  
+   
+    
+}
+
+.navbar-nav {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+  }
+  
+.navbar-brand
+
+{
+
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+
+
+}
+
+
+
+p
+
+{
+
+    color: white;
+
+}
+
+.menu a:hover
+{
+
+    color: red;
+    text-decoration: underline;
+
+}
